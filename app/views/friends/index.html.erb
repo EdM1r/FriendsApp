@@ -9,13 +9,16 @@
       <th scope="col">Phone Number</th>
       <th scope="col">Email</th>
       <th scope="col">Twitter</th>
+      <th scope="col">User ID</th>
       <th scope="col">Command</th>
     </tr>
   </thead>
 
     <tbody>
     <% @friends.each do |friend| %>
-      <%= render friend %>
+      <% if friend.user == current_user%>
+        <%= render friend %>
+      <% end %>
     <% end %>
    </tbody>
 <table>
