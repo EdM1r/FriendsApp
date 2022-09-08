@@ -1,26 +1,13 @@
-# README
+# Friends App
 
-This project is under construction. Inspiration and guide from freebootcamp Rails course.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my first rails project. Done via YouTube tutorial at freeCodeBootcamp: https://youtu.be/fmyvWz5TUWg
 
-Things you may want to cover:
 
-* Ruby version
+This application is available at Heroku: https://friends-app-by-ed.herokuapp.com
 
-* System dependencies
 
-* Configuration
+The application allows you to create list of your friends. You friends will be only visible to you. You will need to sing up, then you can start to add friends.
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
